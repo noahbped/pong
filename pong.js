@@ -163,3 +163,5 @@ canvas.addEventListener('mousemove', event => {
 canvas.addEventListener('click', event => {
     pong.start();
 });
+rect.pos.x canvas width / 2;
+rect.pos.y canvas height / 2
