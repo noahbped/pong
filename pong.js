@@ -126,9 +126,9 @@ class Pong
     start()
     {
         if (this.ball.vel.x === 0 && this.ball.vel.y === 0) {
-            this.ball.vel.x = 300 * (Math.random() > .5 ? 1 : -1)
-            this.ball.vel.y = 300 * (Math.random() * 2 - 1)
-            this.ball.vel.len = 200;
+            this.ball.vel.x = 600 * (Math.random() > .5 ? 1 : -1)
+            this.ball.vel.y = 600 * (Math.random() * 2 - 1)
+            this.ball.vel.len = 400;
         }
     }
     update(dt) 
@@ -163,5 +163,3 @@ canvas.addEventListener('mousemove', event => {
 canvas.addEventListener('click', event => {
     pong.start();
 });
-rect.pos.x canvas width / 2;
-rect.pos.y canvas height / 2
